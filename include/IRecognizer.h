@@ -5,7 +5,7 @@
 #include <string>
 
 enum class Intent {
-    kUnkwown = 0,
+    kUnknown = 0,
     kGet_Weather = 1,
     kGet_Weather_City = 2,
     kCheck_Calender = 3,
