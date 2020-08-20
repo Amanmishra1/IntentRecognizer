@@ -9,11 +9,8 @@ int main(int argc, char **argv)
     std::string sentence;
     r = RecognizerFactory::createBasicIntent();
 
-    std::cout<<"Enter your sentence" << std::endl;
+    std::cout<<"Enter a sentence" << std::endl;
     std::getline(std::cin, sentence);
-
-    std::cout << "Your input is" << std::endl;
-    std::cout << sentence;
 
     std::cout << "Intent: " << r->getIntent(sentence) << "\n";
     return EXIT_SUCCESS;
