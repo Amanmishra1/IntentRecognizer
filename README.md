@@ -12,8 +12,6 @@ CMake : https://cmake.org/
 
 Prerequisites:
 1. Minimum CMake Version 3.10
-2. Googletest should be cloned using git clone https://github.com/google/googletest/
-3. copy googletest cloned in Step 2. to directory to /IntentRecognizer (parent directory)
 
 #### Steps to build the project:
 
