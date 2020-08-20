@@ -1,6 +1,4 @@
 #include<RecognizerAppFactory.h>
-#include<BasicRecognizer.h>
-
 #include <iostream>
 #include <string>
 

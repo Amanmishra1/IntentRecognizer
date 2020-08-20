@@ -32,4 +32,4 @@ target_link_libraries(IntentRecognizer
   BasicRecognizer
 )
 
-#add_subdirectory(test)
+add_subdirectory(test)
