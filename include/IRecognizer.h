@@ -19,5 +19,19 @@ public:
     virtual ~IRecognizer() {};
 };
 
+inline std::ostream& operator<<(std::ostream& s, const Intent& i) {
+    switch (i) {
+        case Intent::kUnknown:
+            return s << "Unknown";
+        case Intent::kGet_Weather:
+            return s << "Get Weather";
+        case Intent::kGet_Weather_City:
+            return s << "Get Weather City";
+        case Intent::kCheck_Calender:
+            return s << "Check Calendar";
+        case Intent::kGet_Fact:
+            return s << "Get Fact";
+    }
+}
 #endif // INCLUDE_RECOGNIZER_H
 
