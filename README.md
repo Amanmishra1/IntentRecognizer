@@ -32,3 +32,8 @@ Prerequisites:
 1. cd build
 2. ./IntentRecognizer 
 
+### Future Improvements ###
+1. We can read city names from a file instead of hardcoding values in code
+2. We can store all types of sentences a user types in some document
+3. We can write a script (python or equivalent) which would be trained by reading the document
+
