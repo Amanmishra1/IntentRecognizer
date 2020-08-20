@@ -14,7 +14,7 @@ const Intent BasicRecognizer::getIntent(const std::string &input_sentence) const
     const auto isFound = std::find_if(basic_intent_.cbegin(), basic_intent_.cend(), [&input_sentence](const auto &entry) -> bool 
                          { return std::regex_match(input_sentence, entry.first); });
 
-    // If sentence matches regex return enum class value
+    // If sentence does not match, return Unknown
     if (isFound == basic_intent_.cend())
     {
         return  Intent::kUnknown; 
