@@ -12,6 +12,7 @@ CMake : https://cmake.org/
 
 Prerequisites:
 1. Minimum CMake Version 3.10
+2. Since googltest is added a submodule, while cloning this repository use --recursive switch
 
 #### Steps to build the project:
 
