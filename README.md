@@ -24,6 +24,8 @@ Prerequisites:
 #### Steps to run the unit test:
 1. cd build/test
 2. ./intent_test
+3. Or instead of Step 1-2 write the following: 
+   make test 
 
 #### Steps to run the code:
 1. cd build
